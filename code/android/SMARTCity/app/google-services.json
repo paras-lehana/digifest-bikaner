@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "156779411150",
+    "firebase_url": "https://gyaanify-smart-city.firebaseio.com",
+    "project_id": "gyaanify-smart-city",
+    "storage_bucket": "gyaanify-smart-city.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156779411150:android:fcaa87fa4c037898",
+        "android_client_info": {
+          "package_name": "com.gyaanify.iot.smartcity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156779411150-v2bsuan1d3280tuvk9g1v8vgcpsekpqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCum_s0Qvy2xDvCu9j-SOIHvgvlmiR12mI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

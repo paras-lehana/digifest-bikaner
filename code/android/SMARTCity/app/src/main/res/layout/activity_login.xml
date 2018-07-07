@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#FFB74D">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="15dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:backgroundTintMode="src_atop">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#01579B"
+                android:textSize="36sp"
+                android:textStyle="normal|bold"
+                android:id="@+id/textView" />
+
+
+
+            <!--<ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_julogo"
+                ads:srcCompat="@android:color/background_dark" />-->
+
+        </RelativeLayout>
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/etUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Email" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:padding="20dp"
+            android:text="Login"
+            android:onClick="OnLogin"
+            android:background="#EF6C00"
+            android:textColor="@android:color/background_light" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_offline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#FB8C00"
+            android:onClick="OnOffline"
+            android:padding="8dp"
+            android:text="Local Offline Access"
+            android:textColor="@android:color/background_light" />
+
+        <!-- Email Label -->
+        <!--<android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/etIP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Gateway IP (e.g. 192.168.1.1)" />
+        </android.support.design.widget.TextInputLayout>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="© Paras Lehana | Nitin Thakur | Pradeep Asthana"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="JIIT Noida"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#01579B"
+            android:textSize="25sp"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
