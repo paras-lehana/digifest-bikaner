@@ -1,0 +1,2 @@
+COMPONENT=OscilloscopeAppC
+include $(MAKERULES)
