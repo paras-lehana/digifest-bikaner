@@ -1,2 +1,8 @@
 # digifest-bikaner
 Repo for sources of SmartStreet (to be presented @ IT Day 2018)
+
+
+# Summary
+
+Adaptive Smart Street Lightning is a module to automate existing street lights infrastructure using deployment of cost-efficient ESP8266 WiFi chipsets. The module optimizes group's net intensity (thereby energy costs) using self-learning over attributes like area light intensity (using LDR), weather conditions (like cloudiness, temperature, visibility), geolocation (using Google Maps API), time of the day and Master Control. A group of Street Lights (belonging to a colony or area) is a (sub)network and thus bears an IP address that can be controlled by the administrators using local internet/Wi-Fi (the android interface that allows this is the Master Control). Moreover, the street network is not hard-coded into the app but is managed via cloud server (Firebase) allowing real-time management. The module will thus help connect a network of street lights arrive at a collective optimized intensity to further reduce net energy consumptions as well as collect environmental parameters that could be used to generate datasets for statistical analysis and predictions using Fuzzy Inference System and/or Machine Learning Algorithms. The approach can be extended to whole city or state department and can additionally help rectify local errors such as a non-working street light or those depicted by the collected data. While administrators would have advanced tools to control and manage the network through mobile or web authorized interfaces, citizens would be able to view their local and global street lights cluster and can have further access to corresponding open data.
+
